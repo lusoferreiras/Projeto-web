@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/bv.css" >
+    <script type="text/javascript" src="../js/pagamentos.js"></script>
+    <title>Estacionamentos Proximos</title>
+</head>
+<body>
+
+    <p>
+        <div id="logoCadastro">4Parking</div>
+    </p>
+
+    <form class="molde">
+        <b><div>Auto Park Estacionamentos</div>
+        <div>Valor R$ 9,00</div>
+        <div>4 horas </div>
+        <div>+ R$ 2,00 fração de horas.</div><br></b>
+
+    <button id="btConfirme" onclick="pagamentos()">Confirmar</button>
+    
+    <script>
+    function pagamentos()
+    {
+   
+    var cartao=prompt("Número do cartão: ");
+    var nome=prompt("Nome no cartão: ");
+   var date=prompt("Data de validade:");
+   var cvv=prompt("CVV: ");
+   if(cartao=="") {
+       alert("Algum campo está vazio");
+   }else{
+       alert("compra efetuada com sucesso! Comprovante enviado para seu e-mail cadastrado");
+   }
+    
+    }
+    </script>
+
+</form>
+
+  <a href="https://www.google.com.br/maps/dir//auto+park+boa+viagem/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x7ab1fc9fffbcad1:0xce6b1e452b09068?sa=X&ved=2ahUKEwje3eahxqv0AhUdILkGHZ_FDiYQ9Rd6BAg4EAM">
+      <img src="../img/85eb90e0-cf12-4543-954d-937f1cb04d69_1.png"id="img" width="700px" height="420px"></a>
+     <a id="icon" href=""><i class="fas fa-map-marked-alt"></i></a>    
+   
+     
+     <script src="https://kit.fontawesome.com/ba4f5370a2.js" crossorigin="anonymous"></script>
+</body>
+</html>

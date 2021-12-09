@@ -1,0 +1,252 @@
+*{
+
+    margin: 0;
+  
+    padding: 0;
+  
+    box-sizing: border-box;
+  
+}  
+body{
+    background: #7FE2F8;
+    margin: 0;
+    /*width: auto;
+    height: auto;*/
+    min-width:768px;
+    max-width: 1024px;
+    min-height: 768px;
+    right: 0;
+}
+
+header{
+    background-color: black;
+    position: absolute;
+/*margin: auto 100%;
+width: 100%;
+height: 7%;*/
+margin: 0;
+width: auto;
+height: 7%;
+top: 0;
+display: flex;
+z-index: 1;
+}
+header.barraSuperior{
+    top: 0;
+    background-color: rgb(7, 7, 7);
+    text-decoration: none;
+position: absolute;
+margin-top: -7%;
+margin: 0;
+width:100%;
+height: 7%;
+color: #715ebd;
+    display: flex;
+    font-size: 16px large;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+#logo{
+    color: rgb(245, 241, 241);
+    font-family: Roboto;
+    position: relative;
+    font-size: 20px;
+    word-spacing: 20px;
+    top: 5%;
+    z-index: 1;
+}
+i{
+    color: white;
+    margin: 0;
+    height: auto;
+    font-size: smaller;
+}
+i:hover{
+    color: gray;
+}
+header nav a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 6px;
+    height: min-content;
+    text-align-last: right;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+nav a :hover{
+    color:#7FE2F8;
+}
+
+
+@font-face {
+    font-family: "BM HANNA_TTF" ;
+    src: url(D:\xampp\htdocs\4Parking\css\fonte\bm-hannae.ttf);
+}
+.divCentral {
+    font-family: "BM HANNA_TTF","Arial";
+    position: absolute;
+width: auto;
+height: auto;
+left: 36%;
+top: 12%;
+display: flex;
+font-family: "BM HANNA_TTF","Arial","sans-serif";
+font-style: normal;
+font-weight: 300;
+font-size: 100px;
+line-height:120px;
+text-align: center;
+color: #000000;
+z-index: 1;
+
+}
+.divCentral2 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 33%;
+    top: 85%;
+    font-family: "Simonetta";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center justify;
+    color: #000000;
+    z-index: 1;
+}
+#btBaixar{
+    position: absolute;
+width: 22%;
+height: 8%;
+left: 42%;
+top: 95%;
+background: #FFFBFB;
+border-radius: 30px;
+box-shadow: 1px;
+font-family: "Mukta Vaani","Arial";
+color:#7FE2F8 ;
+font-weight: bold;
+font-size: 14px;
+text-align:center;
+z-index: 1;
+}
+#btBaixar:hover{
+    transform: scale(1.1);
+    background: #715ebd;
+    border: 3px solid azure;
+    color: black;
+}
+.footer{
+    position: absolute;
+    display: flex;
+    margin: 0;
+    bottom: 0;
+}
+.rodape{
+    background-color: black;
+    position: absolute;
+margin: auto;
+width: 100%;
+height: auto;
+display: flex;
+top: 110%;
+
+right: auto;
+margin-bottom: -10px;
+left: auto;
+flex-direction: row;
+}
+.redesSociais{
+    margin: auto;
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 2px;
+    top:auto;
+    line-height: normal;
+    text-align: end;
+    display: flex;
+    padding: 2px;
+    
+}
+.redesSociais:hover{
+    color: gray;
+}
+#linksUteis{
+    width: 20%;
+}
+#appMovel{
+    width: 42%;
+}
+footer div nav a.sac{
+    position: absolute;
+    text-align-last: right;
+    top: auto;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 1px;
+}
+table tr td a{
+    margin-bottom: 2px;
+    background-color: rgb(7, 7, 7);
+    text-decoration: none;
+margin: 95px;
+width: auto;
+height: auto;
+top: auto;
+color: gray;
+    font-size: 14px;
+    flex-direction: row;
+    align-items: justify;
+    justify-content: space-between;
+}
+td a:hover{
+    color: aliceblue;
+}
+nav a{
+    margin: auto;
+    width: auto;
+    height: auto;
+    top: auto;
+    text-decoration: none;
+    color: aliceblue;
+    text-align-last: right;
+    font-size: 12px;
+    align-content: space-between;
+    bottom: 1px;
+
+}
+nav a:hover{
+    color: #715ebd;
+}
+#lemonp{
+    position: absolute;
+    margin-top:15px;
+    z-index: 0;
+    top: 75%;
+    left: 14%;
+}
+#lemonp2{
+    position: absolute;
+    top: 25%;
+    right:14%;
+    z-index: 0;
+}
+#lemonp3{
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    z-index: 0;
+    top: 30%;
+}
+#lemonp4{
+    right: 6%;
+    position: absolute;
+    top:80%;
+    z-index: 0;
+}
